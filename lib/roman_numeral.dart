@@ -14,9 +14,9 @@ class RomanNumeral {
   static toArabic(String numeral) {
     var value = 0;
 
-    for (int i = 0; i < numeral.length; i++) {
-      if (numerals.keys.contains(numeral[i])) {
-        value += numerals[numeral[i]]!;
+    for (int ch = 0; ch < numeral.length; ch++) {
+      if (numerals.keys.contains(numeral[ch])) {
+        value += numerals[numeral[ch]]!;
       }
     }
 

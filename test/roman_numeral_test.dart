@@ -16,6 +16,18 @@ void main() {
     'M': 1000,
     'VI': 6,
     'IV': 4,
+    'XXXIX': 39,
+    'CCXLVI': 246,
+    'DCCLXXXIX': 789,
+    'MMCDXXI': 2421,
+    'CLX': 160,
+    'CCVII': 207,
+    'MIX': 1009,
+    'MLXVI': 1066,
+    'MDCCLXXVI': 1776,
+    'MCMXVIII': 1918,
+    'MCMLIV': 1954,
+    'MMXIV': 2014,
   };
 
   int result;

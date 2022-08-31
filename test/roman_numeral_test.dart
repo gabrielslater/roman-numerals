@@ -2,8 +2,6 @@ import 'package:roman_numerals/roman_numeral.dart';
 import 'package:test/test.dart';
 
 void main() {
-  // information taken from
-  // https://en.wikipedia.org/wiki/Roman_numerals#Standard_form
   // intended test cases:
   // I, V, X, L, C, D, M
   // as well as the given examples

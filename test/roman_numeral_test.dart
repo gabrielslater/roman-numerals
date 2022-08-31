@@ -28,6 +28,7 @@ void main() {
     'MCMXVIII': 1918,
     'MCMLIV': 1954,
     'MMXIV': 2014,
+    'i': 1,
   };
 
   int result;

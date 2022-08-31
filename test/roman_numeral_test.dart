@@ -15,6 +15,7 @@ void main() {
     'D': 500,
     'M': 1000,
     'VI': 6,
+    'IV': 4,
   };
 
   int result;

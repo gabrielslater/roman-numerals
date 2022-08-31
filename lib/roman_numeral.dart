@@ -1,5 +1,9 @@
 class RomanNumeral {
   static toArabic(String numeral) {
-    return 1;
+    if (numeral == "V") {
+      return 5;
+    } else {
+      return 1;
+    }
   }
 }

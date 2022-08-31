@@ -1,1 +1,5 @@
-class RomanNumeral {}
+class RomanNumeral {
+  static toArabic(String numeral) {
+
+  }
+}

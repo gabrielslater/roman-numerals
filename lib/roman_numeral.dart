@@ -13,10 +13,16 @@ class RomanNumeral {
   // https://en.wikipedia.org/wiki/Roman_numerals#Standard_form
   static toArabic(String numeral) {
     var value = 0;
+    var last = 1; // previous numeral's value
 
-    for (int ch = 0; ch < numeral.length; ch++) {
+    for (int ch = numeral.length - 1; ch >= 0; ch--) {
       if (numerals.keys.contains(numeral[ch])) {
-        value += numerals[numeral[ch]]!;
+        if (last <= numerals[numeral[ch]]!) {
+          value += numerals[numeral[ch]]!;
+        } else {
+          value -= numerals[numeral[ch]]!;
+        }
+        last = numerals[numeral[ch]]!;
       }
     }
 

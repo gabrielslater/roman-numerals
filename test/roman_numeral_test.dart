@@ -6,4 +6,8 @@ void main() {
     var result = RomanNumeral.toArabic("I");
     expect(result, equals(1));
   });
+  test('V = 5', () {
+    var result = RomanNumeral.toArabic("V");
+    expect(result, equals(5));
+  });
 }

@@ -29,6 +29,7 @@ void main() {
     'MCMLIV': 1954,
     'MMXIV': 2014,
     'i': 1,
+    'xiv ': 14,
   };
 
   int result;

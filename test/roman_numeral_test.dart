@@ -8,7 +8,11 @@ void main() {
   // I, V, X, L, C, D, M
   // as well as the given examples
 
-  var table = {"I": 1, "V": 5};
+  var table = {
+    "I": 1,
+    "V": 5,
+    "X": 10,
+  };
 
   int result;
 

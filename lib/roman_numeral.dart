@@ -12,6 +12,8 @@ class RomanNumeral {
   // information taken from
   // https://en.wikipedia.org/wiki/Roman_numerals#Standard_form
   static toArabic(String numeral) {
+    numeral = numeral.toUpperCase();
+
     var value = 0;
     var last = 1; // previous numeral's value
 

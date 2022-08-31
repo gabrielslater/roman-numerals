@@ -30,6 +30,7 @@ void main() {
     'MMXIV': 2014,
     'i': 1,
     'xiv ': 14,
+    'MMMCMXCIX': 3999,
   };
 
   int result;

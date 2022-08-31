@@ -12,8 +12,14 @@ class RomanNumeral {
   // information taken from
   // https://en.wikipedia.org/wiki/Roman_numerals#Standard_form
   static toArabic(String numeral) {
-    if (numerals.keys.contains(numeral)) {
-      return numerals[numeral];
+    var value = 0;
+
+    for (int i = 0; i < numeral.length; i++) {
+      if (numerals.keys.contains(numeral[i])) {
+        value += numerals[numeral[i]]!;
+      }
     }
+
+    return value;
   }
 }

@@ -9,9 +9,9 @@ void main() {
   // as well as the given examples
 
   var table = {
-    "I": 1,
-    "V": 5,
-    "X": 10,
+    'I': 1,
+    'V': 5,
+    'X': 10,
   };
 
   int result;
